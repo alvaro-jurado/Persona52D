@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 1e6abdf15294c9040b9745fe6e4ff204
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arsene-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 379
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991b1dcbdaf994940adfd9c6de6521c0
+      internalID: -501099355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 378
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ec0b575a70d84ab7b2f2283afa242
+      internalID: -37679364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 376
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e26dad002a4d34e8cc3268a8d505f3
+      internalID: 2097279337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 293
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b6af2aed1179d48adf0483cebfae53
+      internalID: -1795446612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 295
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64caf6164c781d745acb3373a5f7a406
+      internalID: 1030360033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 298
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb935ed5d1c89439fe91f4eec63f30
+      internalID: 1922102026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 300
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ca33ceaa799a34caa08cb2ef0ec78b
+      internalID: 687020755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 301
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1caf9958e35a384e88756619bd3d9e2
+      internalID: -1519718460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 209
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f96be92b2b90fa40bf623ec3ffef637
+      internalID: 1208550218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 209
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79cc6555e3cb03469c8ff38a8297939
+      internalID: 1153729747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 209
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312b16cb34c00040a9d931ffc57de98
+      internalID: -829166987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 206
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae98fd5712a14498c336a4f8174423
+      internalID: 1410317307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 206
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be72171acd5405442ba2b4c36f699047
+      internalID: 1717849239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb08b3e3b033be4598e41433c6f6513
+      internalID: 1889381115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 104
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b954e582d97346a6bb3d423e80fce
+      internalID: 664025667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 104
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c85b1a04b5e044eae42b13c687d58f
+      internalID: -658311776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 104
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf45ede26904724cbe72757dde80d68
+      internalID: -780523649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 105
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a4f85f0ad132e449520579627e9352
+      internalID: 261689185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b2455a525faa449b0155367324bfc5
+      internalID: 252682583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 14
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd150ac33d3e09a42a2d597f59a0fdc7
+      internalID: 1144120307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 16
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833159504856e649bae3652eca5120e
+      internalID: 1882961503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 16
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948160072c85bb247b7117b50a1fab43
+      internalID: 249766700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arsene-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 16
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fc2fb2f8cc8a74face515c12d875d8
+      internalID: 872164741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      arsene-spritesheet_0: -501099355
+      arsene-spritesheet_1: -37679364
+      arsene-spritesheet_10: 1030360033
+      arsene-spritesheet_11: 1922102026
+      arsene-spritesheet_12: 687020755
+      arsene-spritesheet_13: 485390839
+      arsene-spritesheet_14: -2048855107
+      arsene-spritesheet_15: 2046080231
+      arsene-spritesheet_16: -1519718460
+      arsene-spritesheet_17: 857648618
+      arsene-spritesheet_18: -2074307945
+      arsene-spritesheet_19: -1468893863
+      arsene-spritesheet_2: 2097279337
+      arsene-spritesheet_20: -881947882
+      arsene-spritesheet_21: 1653836850
+      arsene-spritesheet_22: -2109901850
+      arsene-spritesheet_23: -814788760
+      arsene-spritesheet_24: 1023224186
+      arsene-spritesheet_25: -1998581367
+      arsene-spritesheet_26: -733719089
+      arsene-spritesheet_27: 1208550218
+      arsene-spritesheet_28: 1153729747
+      arsene-spritesheet_29: -829166987
+      arsene-spritesheet_3: -2123562396
+      arsene-spritesheet_30: 1410317307
+      arsene-spritesheet_31: 1717849239
+      arsene-spritesheet_32: 1695084555
+      arsene-spritesheet_33: 1727222535
+      arsene-spritesheet_34: -919761117
+      arsene-spritesheet_35: -917516374
+      arsene-spritesheet_36: 1889381115
+      arsene-spritesheet_37: 664025667
+      arsene-spritesheet_38: -658311776
+      arsene-spritesheet_39: -780523649
+      arsene-spritesheet_4: 1876324584
+      arsene-spritesheet_40: 261689185
+      arsene-spritesheet_41: 296939333
+      arsene-spritesheet_42: -253116795
+      arsene-spritesheet_43: 252682583
+      arsene-spritesheet_44: 1144120307
+      arsene-spritesheet_45: 1882961503
+      arsene-spritesheet_46: 249766700
+      arsene-spritesheet_47: 872164741
+      arsene-spritesheet_48: -752346109
+      arsene-spritesheet_49: -894096843
+      arsene-spritesheet_5: -683289559
+      arsene-spritesheet_50: 827407781
+      arsene-spritesheet_51: -1960973297
+      arsene-spritesheet_52: -1156760490
+      arsene-spritesheet_6: 1062781472
+      arsene-spritesheet_7: -35305543
+      arsene-spritesheet_8: -649551921
+      arsene-spritesheet_9: -1795446612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

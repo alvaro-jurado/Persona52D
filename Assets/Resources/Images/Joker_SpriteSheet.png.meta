@@ -1,0 +1,2671 @@
+fileFormatVersion: 2
+guid: 98416e99ccf1e3844984268c5a42e33a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2126
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ede83952d421dd4abd99ffb1a9beb32
+      internalID: 220749644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2127
+        width: 55
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448da104256f39549baa59fc9974841c
+      internalID: -1637429646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2127
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f24009a91107747958c2e9f3f7d5f2
+      internalID: -2100086161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2128
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6912b1f5f3047b6419adb85d87f9b37a
+      internalID: -1343507852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1968
+        width: 45
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e297ddbe2a9af41a100bc4474611fb
+      internalID: -1620266953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1968
+        width: 59
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6950aaf9d320ce34c973c3d191ee3ee2
+      internalID: -1885595898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1973
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392001ef5999ca74293ebb79a3293348
+      internalID: 1871895410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1974
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28963fea4abf4d40911b120927835c9
+      internalID: -96201519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1980
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da42a6d3183ad384bba5fe098c5382fc
+      internalID: -1529492673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1983
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa49cbde34a5ae46b4c4d31d13096ec
+      internalID: 627820643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1985
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efbb3b78a7681345b78613bcbd725d9
+      internalID: -1922525075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1986
+        width: 39
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16f8d976b51b034190b813ae5191b5a
+      internalID: -527154134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1984
+        width: 53
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe10df6bbbae93f4898cc6e4495ffee4
+      internalID: -802313292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1857
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b6bce8106f69b4c9460fafbe7fb1e7
+      internalID: 294343076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1852
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef7f5bebc174a46ab5aa31b919f950
+      internalID: -1907771938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1864
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b9dd8fec9b394080283cb681a4dfb
+      internalID: -1639444128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1710
+        width: 36
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e140069d75d90643b1043c041b3ceb2
+      internalID: 106630158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1710
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15c89e4f1b8aea4780253e4c5429f76
+      internalID: 565788038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1712
+        width: 50
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390bc3dd1c272164eafe59ad593d9d32
+      internalID: 186869829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1712
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e364d4450c82e48a6af1378aec2ce0
+      internalID: 1861047521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1712
+        width: 39
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801a245709b6e2844bd66b4ea32b14e2
+      internalID: -632427258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1710
+        width: 37
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f3be61623a9b42975a7d28d1091c5
+      internalID: 2012436576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1703
+        width: 29
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d9016a436af5c43bab055c3c13c222
+      internalID: 1323024026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1705
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e7ee416aa2e0c41bc006af61b73031
+      internalID: 1885224651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1706
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954bfb829ad58d748b625a011c088444
+      internalID: 1854546421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1708
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8114b02f1b7ea86469bdd172d2ecabb0
+      internalID: 838715434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1710
+        width: 31
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a81804ce119e041935bf42028e2888
+      internalID: -1724881810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1550
+        width: 67
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce2e4e0fdcf1ab41aaeae3f88d560ef
+      internalID: 1673319722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1553
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf2504428c9bb64098897bb1104088d
+      internalID: -516162767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1558
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae6f04545c90a444a95b696dd1731ea
+      internalID: 1725690755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1558
+        width: 63
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008871c093aa7a044b47d134ec4b3be4
+      internalID: 879158995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1559
+        width: 61
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db613c814c8fe3c4d9ec2939a97de5b4
+      internalID: 723468622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1560
+        width: 65
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3daaa21ec9097141bcda3c9889c1932
+      internalID: 1038285969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1564
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec4d467b838577489efd69724521b82
+      internalID: -1531163382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1562
+        width: 60
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2e5c832d022474daf2c2c744682e19
+      internalID: 1289235155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1563
+        width: 61
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05a0700dbf22f2418878789dca16598
+      internalID: -2014470287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1401
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb77a57e13966df43aef49adb132a094
+      internalID: -1781391885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1410
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09070596455b2f74bb565e009179153a
+      internalID: 1691730394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1412
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8453f44cf9a32947a15eb9606e263d1
+      internalID: -1260804869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1412
+        width: 53
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2636fd6a6ab4e6c43bc1309008ffd005
+      internalID: 2122180755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1405
+        width: 60
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da4077caa33b564585ff34f1f89e0e9
+      internalID: -506177658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1421
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e6c57ba776ce489b615e5ebef492c
+      internalID: 1813380227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1432
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82bb3aa38bb3314fa2e3823c64db5ca
+      internalID: -1493749809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1417
+        width: 53
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c06cb140eef8a468b50ea9449b05da
+      internalID: -545556143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1441
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236ac92e9325a44e8ae066ba47e8ad6
+      internalID: 1813901711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1461
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0f08178e02e94a88a9d535c38d16f
+      internalID: -839394045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1430
+        width: 85
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482aebd5aac819647a9860f2c75524f7
+      internalID: 684477777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1273
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc6bc0b83e9f3479dbd9ed1c0471e5
+      internalID: 1716227672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1285
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752518a5ffebc06408b3ab0a5cd9e3c6
+      internalID: -664109199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1304
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c38f05c66e84241b025827301bb331
+      internalID: 1019756576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1307
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab368793810ce3449ea77c99488c733
+      internalID: -1449598419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1310
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989c18a07ad49564585b8749b63b8ab3
+      internalID: -1957505144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1309
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b3dba0ee82d7349b70951f12910f2c
+      internalID: 1387120147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1323
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ad397a35dad942855c8506d0990fc
+      internalID: 1170478784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1295
+        width: 107
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f69cb929f6f7e4dad0b3a6d2341b4e
+      internalID: 362612661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1299
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba9286c1d35dea4794d0de86af88b13
+      internalID: 394317258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1268
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb30c7f1da399341a8c79c38aa8f2c3
+      internalID: -251534710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1140
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1c54cff2b31c443901e93abccb65d7
+      internalID: 207587992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1149
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82069aa58ed65a74a825da9e1862559f
+      internalID: -869340061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1174
+        width: 121
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e1fc07baa07e40abb711385951888
+      internalID: 1537541460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1168
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11bcdc813e76644ea998879f9150c04
+      internalID: 1158405182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 987
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbac219dce491c418cf55d7b6accb72
+      internalID: 839144769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 990
+        width: 46
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60f7a7dd5826a9429adc6d1455d24de
+      internalID: -1627102228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 994
+        width: 56
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd2c4870e35624b9d75be417b8a9b5
+      internalID: -1831836992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 991
+        width: 54
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7627d8548b6df2045bc8fe791b551c54
+      internalID: -1394520229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 994
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2bc63e58bde404480688475622390e
+      internalID: 142051248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 998
+        width: 52
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf39fdef8493543af7b20e6d08cfcf
+      internalID: 1505836461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 997
+        width: 51
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218d9d9a1b06dc6488d62c976b1be9c4
+      internalID: -216469859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 999
+        width: 51
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aa788c1e44d9b4baacba0a04e460b6
+      internalID: 641738192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1000
+        width: 55
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac0307bc804cc743a388f3ff14204c8
+      internalID: 1114531174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9018427c15331b7458df9678cc4e07be
+      internalID: 368787153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 845
+        width: 113
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26287d885bc67204cb850ba11b8b4dac
+      internalID: -260413438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 847
+        width: 98
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4089a75edd6348419a20bd3f8298950
+      internalID: 628667421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 855
+        width: 128
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be230a80215cb1e45af83fd974f0794d
+      internalID: 956933131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 858
+        width: 121
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23395a041310fad449577af68e51d840
+      internalID: -640580345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 856
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd885fa2b959fe14cab632b251391832
+      internalID: 250303662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 692
+        width: 74
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0cfdab9c6324947b691184c9680396
+      internalID: 841327360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 693
+        width: 79
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdefb4382f3fb84aab864f78ed8d981
+      internalID: -407615435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 700
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558e22f61f534694e9772f130d04d4d4
+      internalID: -680558346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 702
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dacf13e31801b647b89dfb87738b908
+      internalID: 864271354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 703
+        width: 80
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b3e715035eb914896e6942059462c7
+      internalID: -1089917426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 556
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac02512badcd4e48a4e5441c97bc63e
+      internalID: 768608771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 559
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1ac1a0f231dcb41ade1f9f9277f431
+      internalID: -1676773696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 565
+        width: 112
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22eb9ebf48b7e84db79dc96b6e24510
+      internalID: -969185988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 567
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b52f453bf13c14cb0e36bdce3cec97
+      internalID: -857939313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 570
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f7c8fb3620b0042a4a3bacca16a237
+      internalID: -708452788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 572
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c9289cd6f04a745a6f1a78ff1fd406
+      internalID: 1047961672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 577
+        width: 67
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fa187223da5ba4d96cbd6caccff7a2
+      internalID: -1886879530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 433
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97766fb955587f64393037eb3f026027
+      internalID: -587561932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 446
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f08ade11739fe4c85d7e0175322f99
+      internalID: -610412211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 437
+        width: 120
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12895569989b197409e672f1d48889e4
+      internalID: 228275641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 447
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4d79c178874c1469790a538c462c45
+      internalID: 1622991125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 449
+        width: 129
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0132297acf97484ab1ca7ecc6a7332a
+      internalID: 2057380883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9770e8920a8eae54da31e53151f3170b
+      internalID: 32584297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 332
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0429d169dfb0478697261010ef3ad
+      internalID: -907935014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 343
+        width: 114
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176e75ead7eb77a4a8e808cfc58f8e48
+      internalID: 594097438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 349
+        width: 114
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6727f04b48e9ea742b764d62f86fb07a
+      internalID: 2059561999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 161
+        width: 56
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c83c3b9dbf6624882a8678871043ab
+      internalID: -21475581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 172
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd7736277a0ee4dbf33484d662d4eb
+      internalID: -384982415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 173
+        width: 101
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb726199f60bbd4ba5dbe5af8cbda22
+      internalID: -1164641444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 185
+        width: 113
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703c6101fdca054893da4c4f0eaa06f
+      internalID: 1818619959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 198
+        width: 66
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf225958462c8442a4f73caf438f30b
+      internalID: -548348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 207
+        width: 105
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357da4641e2e269498a6c008e5662c3a
+      internalID: -499418315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 209
+        width: 110
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b207dc5893e9d4fa6d8040dde7e5f8
+      internalID: -282631275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 222
+        width: 118
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e034108e922dcc4dafd62666cd1c347
+      internalID: 1015028873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 84
+        width: 160
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754bbfdf851df4e43a64e8e7b1acd140
+      internalID: 1182363839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 21
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc80b6de09250e14aba46004a5dd009e
+      internalID: 1099105039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 37
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d511714d6c5634a800b30fb57dfa80
+      internalID: -1921798108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 50
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5bd2431a9b34d4ba511b52d6d4966c
+      internalID: -647529657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 57
+        width: 100
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44c55d130ec8bb429ace38a1e26290a
+      internalID: 1490629899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 123
+        width: 115
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60586512f25883349aa9c3a2fa3e483d
+      internalID: 1043215707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 32
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d65000355f1edc48a32780170421047
+      internalID: 140344978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 49
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23fc2b3f326f64b8b4422fbd11df4e
+      internalID: -1754884109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 65
+        width: 115
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e636d22ae56b36043911528ca13adbeb
+      internalID: 1500447461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joker_SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 73
+        width: 111
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755c3f70d00aea74d9ad543666e33030
+      internalID: 1413721713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Joker_SpriteSheet_0: 220749644
+      Joker_SpriteSheet_1: -1637429646
+      Joker_SpriteSheet_10: 1627733185
+      Joker_SpriteSheet_100: 956933131
+      Joker_SpriteSheet_101: -640580345
+      Joker_SpriteSheet_102: 250303662
+      Joker_SpriteSheet_103: 841327360
+      Joker_SpriteSheet_104: -407615435
+      Joker_SpriteSheet_105: -680558346
+      Joker_SpriteSheet_106: 864271354
+      Joker_SpriteSheet_107: -1089917426
+      Joker_SpriteSheet_108: 768608771
+      Joker_SpriteSheet_109: -1676773696
+      Joker_SpriteSheet_11: -361863871
+      Joker_SpriteSheet_110: -969185988
+      Joker_SpriteSheet_111: -857939313
+      Joker_SpriteSheet_112: -708452788
+      Joker_SpriteSheet_113: 1047961672
+      Joker_SpriteSheet_114: -1886879530
+      Joker_SpriteSheet_115: -587561932
+      Joker_SpriteSheet_116: -610412211
+      Joker_SpriteSheet_117: 228275641
+      Joker_SpriteSheet_118: 1622991125
+      Joker_SpriteSheet_119: 2057380883
+      Joker_SpriteSheet_12: -1620266953
+      Joker_SpriteSheet_120: 32584297
+      Joker_SpriteSheet_121: -907935014
+      Joker_SpriteSheet_122: 594097438
+      Joker_SpriteSheet_123: 2059561999
+      Joker_SpriteSheet_124: -21475581
+      Joker_SpriteSheet_125: -384982415
+      Joker_SpriteSheet_126: -1164641444
+      Joker_SpriteSheet_127: 1818619959
+      Joker_SpriteSheet_128: -548348313
+      Joker_SpriteSheet_129: -499418315
+      Joker_SpriteSheet_13: -1885595898
+      Joker_SpriteSheet_130: -282631275
+      Joker_SpriteSheet_131: 1015028873
+      Joker_SpriteSheet_132: 1182363839
+      Joker_SpriteSheet_133: 1099105039
+      Joker_SpriteSheet_134: -1921798108
+      Joker_SpriteSheet_135: -647529657
+      Joker_SpriteSheet_136: 1490629899
+      Joker_SpriteSheet_137: 1043215707
+      Joker_SpriteSheet_138: 140344978
+      Joker_SpriteSheet_139: -1754884109
+      Joker_SpriteSheet_14: 1871895410
+      Joker_SpriteSheet_140: 1500447461
+      Joker_SpriteSheet_141: 1413721713
+      Joker_SpriteSheet_15: -96201519
+      Joker_SpriteSheet_16: -1529492673
+      Joker_SpriteSheet_17: 627820643
+      Joker_SpriteSheet_18: -1922525075
+      Joker_SpriteSheet_19: -527154134
+      Joker_SpriteSheet_2: -2100086161
+      Joker_SpriteSheet_20: -802313292
+      Joker_SpriteSheet_21: 294343076
+      Joker_SpriteSheet_22: -1907771938
+      Joker_SpriteSheet_23: -1639444128
+      Joker_SpriteSheet_24: -27352458
+      Joker_SpriteSheet_25: 1601316053
+      Joker_SpriteSheet_26: -1290207574
+      Joker_SpriteSheet_27: 482889020
+      Joker_SpriteSheet_28: 369418822
+      Joker_SpriteSheet_29: -1523985071
+      Joker_SpriteSheet_3: -1343507852
+      Joker_SpriteSheet_30: -245316951
+      Joker_SpriteSheet_31: -1885238231
+      Joker_SpriteSheet_32: 106630158
+      Joker_SpriteSheet_33: 565788038
+      Joker_SpriteSheet_34: 186869829
+      Joker_SpriteSheet_35: 1861047521
+      Joker_SpriteSheet_36: -632427258
+      Joker_SpriteSheet_37: 2012436576
+      Joker_SpriteSheet_38: 158295126
+      Joker_SpriteSheet_39: -1895394043
+      Joker_SpriteSheet_4: 1258719174
+      Joker_SpriteSheet_40: -1319890324
+      Joker_SpriteSheet_41: 1323024026
+      Joker_SpriteSheet_42: 1885224651
+      Joker_SpriteSheet_43: 1854546421
+      Joker_SpriteSheet_44: 838715434
+      Joker_SpriteSheet_45: -1724881810
+      Joker_SpriteSheet_46: 1392006421
+      Joker_SpriteSheet_47: -1754367200
+      Joker_SpriteSheet_48: -1827548093
+      Joker_SpriteSheet_49: -696575623
+      Joker_SpriteSheet_5: -1704189597
+      Joker_SpriteSheet_50: -126956299
+      Joker_SpriteSheet_51: -584034929
+      Joker_SpriteSheet_52: -61090030
+      Joker_SpriteSheet_53: 1094073783
+      Joker_SpriteSheet_54: 1673319722
+      Joker_SpriteSheet_55: -516162767
+      Joker_SpriteSheet_56: 1725690755
+      Joker_SpriteSheet_57: 879158995
+      Joker_SpriteSheet_58: 723468622
+      Joker_SpriteSheet_59: 1038285969
+      Joker_SpriteSheet_6: -28810735
+      Joker_SpriteSheet_60: -1531163382
+      Joker_SpriteSheet_61: 1289235155
+      Joker_SpriteSheet_62: -2014470287
+      Joker_SpriteSheet_63: -1781391885
+      Joker_SpriteSheet_64: 1691730394
+      Joker_SpriteSheet_65: -1260804869
+      Joker_SpriteSheet_66: 2122180755
+      Joker_SpriteSheet_67: -506177658
+      Joker_SpriteSheet_68: 1813380227
+      Joker_SpriteSheet_69: -1493749809
+      Joker_SpriteSheet_7: 1629360843
+      Joker_SpriteSheet_70: -545556143
+      Joker_SpriteSheet_71: 1813901711
+      Joker_SpriteSheet_72: -839394045
+      Joker_SpriteSheet_73: 684477777
+      Joker_SpriteSheet_74: 1716227672
+      Joker_SpriteSheet_75: -664109199
+      Joker_SpriteSheet_76: 1019756576
+      Joker_SpriteSheet_77: -1449598419
+      Joker_SpriteSheet_78: -1957505144
+      Joker_SpriteSheet_79: 1387120147
+      Joker_SpriteSheet_8: -577294211
+      Joker_SpriteSheet_80: 1170478784
+      Joker_SpriteSheet_81: 362612661
+      Joker_SpriteSheet_82: 394317258
+      Joker_SpriteSheet_83: -251534710
+      Joker_SpriteSheet_84: 207587992
+      Joker_SpriteSheet_85: -869340061
+      Joker_SpriteSheet_86: 1537541460
+      Joker_SpriteSheet_87: 1158405182
+      Joker_SpriteSheet_88: 839144769
+      Joker_SpriteSheet_89: -1627102228
+      Joker_SpriteSheet_9: -1495405944
+      Joker_SpriteSheet_90: -1831836992
+      Joker_SpriteSheet_91: -1394520229
+      Joker_SpriteSheet_92: 142051248
+      Joker_SpriteSheet_93: 1505836461
+      Joker_SpriteSheet_94: -216469859
+      Joker_SpriteSheet_95: 641738192
+      Joker_SpriteSheet_96: 1114531174
+      Joker_SpriteSheet_97: 368787153
+      Joker_SpriteSheet_98: -260413438
+      Joker_SpriteSheet_99: 628667421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
