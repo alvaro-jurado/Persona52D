@@ -40,10 +40,10 @@ public class TurnManager : MonoBehaviour
         player.abilities = new List<Ability> { arsene, swordAttack, guard, heal };
 
         // Crear habilidades del enemigo
-        Ability enemyAttack = new Ability { name = "Claw", damage = 15, manaCost = 0 };
-        Ability enemyAttack2 = new Ability { name = "Punch", damage = 12, manaCost = 0 };
-        Ability enemyAttack3 = new Ability { name = "Kick", damage = 12, manaCost = 0 };
-        Ability enemyAttack4 = new Ability { name = "Shot", damage = 10, manaCost = 0 };
+        Ability enemyAttack = new Ability { name = "Shining Arrows", damage = 15, manaCost = 0 };
+        Ability enemyAttack2 = new Ability { name = "Blazing Hell", damage = 12, manaCost = 0 };
+        Ability enemyAttack3 = new Ability { name = "Riot Gun", damage = 12, manaCost = 0 };
+        Ability enemyAttack4 = new Ability { name = "Tempest Slash", damage = 10, manaCost = 0 };
 
         // Asignar habilidades al enemigo
         enemy.abilities = new List<Ability> { enemyAttack, enemyAttack2, enemyAttack3, enemyAttack4 };
@@ -108,6 +108,7 @@ public class TurnManager : MonoBehaviour
                 {
                     player.isGuarding = true;
                     UpdateCombatLog("El jugador se pone en guardia.");
+                    animator.SetBool("isGuarding", true);
                 }
                 else if (selectedAbility.name == "Arsene")
                 {
@@ -131,7 +132,10 @@ public class TurnManager : MonoBehaviour
                 CheckEndCombat();
                 
                 if (selectedAbility.name == "Sword Attack")
-                Invoke("isAttacking", 2.8f);
+                Invoke("isAttacking", 0.5f);
+
+                if (selectedAbility.name == "Guard")
+                Invoke("isGuarding", 0.6f);
 
                 // Cambiar turno al enemigo
                 ChangeTurn();
@@ -147,6 +151,14 @@ public class TurnManager : MonoBehaviour
     void isAttacking()
     {
         animator.SetBool("isAttacking", false);
+    }
+    void isGuarding()
+    {
+        animator.SetBool("isGuarding", false);
+    }
+    void isDead()
+    {
+        animator.SetBool("isDead", false);
     }
 
     IEnumerator ArseneAttack()
@@ -190,7 +202,7 @@ public class TurnManager : MonoBehaviour
 
     void ChangeTurn()
     {
-        Debug.Log(isEnemyTurnActive);
+        //Debug.Log(isEnemyTurnActive);
         isPlayerTurn = !isPlayerTurn; // Cambiar el turno
 
         if (!isPlayerTurn)
@@ -211,6 +223,8 @@ public class TurnManager : MonoBehaviour
         else if (player.health <= 0)
         {
             // El jugador pierde, mostrar la pantalla de derrota
+            animator.SetBool("isDead", true);
+            Invoke("isDead", 0.9f);
             SceneTracker.previousScene = SceneManager.GetActiveScene().name;
             sceneController.LoadScene("GameOverScene");
         }
