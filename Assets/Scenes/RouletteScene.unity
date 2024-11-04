@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chips: 500
-  targetChips: 600
+  targetChips: 800
   betAmount: 100
   chipsText: {fileID: 743846548}
   resultText: {fileID: 1162903264}

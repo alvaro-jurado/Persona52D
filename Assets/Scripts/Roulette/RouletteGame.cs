@@ -7,7 +7,7 @@ using System.Collections;
 public class RouletteGame : MonoBehaviour
 {
     public int chips = 100;
-    public int targetChips = 2000;
+    public int targetChips = 800;
     public int betAmount = 100;
 
     public TextMeshProUGUI chipsText;
