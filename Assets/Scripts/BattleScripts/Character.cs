@@ -10,30 +10,27 @@ public class Character : MonoBehaviour
     public int mana;
     public int maxMana;
     public int attackPower;
-    public bool isGuarding = false; // Indica si el personaje está en guardia
+    public bool isGuarding = false;
     private TurnManager turnManager;
 
-    // Para almacenar habilidades
     public List<Ability> abilities;
 
     void Start()
     {
-        turnManager = FindObjectOfType<TurnManager>(); // Buscar referencia al TurnManager
+        turnManager = FindObjectOfType<TurnManager>();
     }
 
-    // Propiedad que indica si el personaje está vivo
     public bool isAlive
     {
         get { return health > 0; }
     }
 
-    // Método para recibir daño
     public void TakeDamage(int damage)
     {
         if (isGuarding)
         {
-            damage = 0; // Reducir daño a la mitad cuando está en guardia-
-            isGuarding = false; // Guardar solo dura un turno
+            damage = 0;
+            isGuarding = false;
         } else
         {
             health -= damage;
@@ -61,7 +58,7 @@ public class Character : MonoBehaviour
             health = maxHealth;
         }
 
-        // Actualizar la barra de vida en el HUD
+        // Update Bars in HUD
         turnManager.UpdateHealthAndMana();
     }
 
@@ -74,7 +71,6 @@ public class Character : MonoBehaviour
             mana = 0;
         }
 
-        // Actualizar la barra de maná en el HUD
         turnManager.UpdateHealthAndMana();
     }
 }

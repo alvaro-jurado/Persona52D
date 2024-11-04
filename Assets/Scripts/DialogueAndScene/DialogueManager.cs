@@ -44,7 +44,7 @@ public class DialogueManager : MonoBehaviour
         {
             videoPlayer.enabled = false;
             videoPlayer.loopPointReached += OnVideoEnd;
-            videoPlayer.renderMode = VideoRenderMode.CameraNearPlane; // Asegura que el video esté en la cámara
+            videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
         }
 
         StartDialogue();
@@ -61,12 +61,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (videoPlayer != null && videoPlayer.isPlaying && Input.GetMouseButtonDown(0))
         {
-            // Llama a SkipCinematic solo si el video está reproduciéndose y se detecta un clic
             SkipCinematic();
         }
         else if (dialoguePanel.activeSelf && Input.GetMouseButtonDown(0))
         {
-            // Manejador de clic para el diálogo
             if (isTyping)
             {
                 StopAllCoroutines();
@@ -157,7 +155,6 @@ public class DialogueManager : MonoBehaviour
         textFullyDisplayed = true;
     }
 
-    // Función para omitir el video
     void SkipCinematic()
     {
         if (videoPlayer != null && videoPlayer.isPlaying)

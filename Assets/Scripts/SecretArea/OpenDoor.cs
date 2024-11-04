@@ -14,7 +14,6 @@ public class OpenDoor : MonoBehaviour
 
     public void OpenDoorAnimation()
     {
-        Debug.Log("Abre");
         if (!isOpen)
         {
             animator.SetBool("isOpening", true);

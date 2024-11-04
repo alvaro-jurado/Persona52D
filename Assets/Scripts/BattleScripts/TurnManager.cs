@@ -13,15 +13,15 @@ public class TurnManager : MonoBehaviour
     public GameObject arsenePrefab;
 
     private bool isPlayerTurn = true;
-    private bool isEnemyTurnActive = false; // Nuevo indicador para el turno del enemigo
+    private bool isEnemyTurnActive = false;
 
-    public Slider playerHealthBar; // Referencia a la barra de vida del jugador
-    public Slider enemyHealthBar;  // Referencia a la barra de vida del enemigo
-    public Slider playerManaBar;   // Referencia a la barra de maná del jugador 
+    public Slider playerHealthBar;
+    public Slider enemyHealthBar;
+    public Slider playerManaBar;
 
-    public TMP_Text playerHealthText; // Texto para mostrar la vida del jugador
-    public TMP_Text playerManaText;   // Texto para mostrar el maná del jugador
-    public TMP_Text enemyHealthText;  // Texto para mostrar la vida del enemigo
+    public TMP_Text playerHealthText;
+    public TMP_Text playerManaText;
+    public TMP_Text enemyHealthText;
 
     public TMP_Text combatLogText;
     public Animator animator;
@@ -30,22 +30,18 @@ public class TurnManager : MonoBehaviour
 
     void Start()
     {
-        // Crear habilidades del personaje
         Ability arsene = new Ability { name = "Arsene", damage = 20, manaCost = 18 };
         Ability swordAttack = new Ability { name = "Sword Attack", damage = 10, manaCost = 0 };
         Ability guard = new Ability { name = "Guard", damage = 0, manaCost = 0 };
         Ability heal = new Ability { name = "Heal", damage = 0, manaCost = 0 };
 
-        // Asignar habilidades al personaje
         player.abilities = new List<Ability> { arsene, swordAttack, guard, heal };
 
-        // Crear habilidades del enemigo
         Ability enemyAttack = new Ability { name = "Shining Arrows", damage = 15, manaCost = 0 };
         Ability enemyAttack2 = new Ability { name = "Blazing Hell", damage = 12, manaCost = 0 };
         Ability enemyAttack3 = new Ability { name = "Riot Gun", damage = 12, manaCost = 0 };
         Ability enemyAttack4 = new Ability { name = "Tempest Slash", damage = 10, manaCost = 0 };
 
-        // Asignar habilidades al enemigo
         enemy.abilities = new List<Ability> { enemyAttack, enemyAttack2, enemyAttack3, enemyAttack4 };
 
         playerHealthBar.maxValue = player.maxHealth;
@@ -63,7 +59,7 @@ public class TurnManager : MonoBehaviour
 
         combatLogText.text = "¡El combate comienza!";
         isPlayerTurn = true;
-        isEnemyTurnActive = false; // Asegurarse de que el indicador esté en falso al inicio
+        isEnemyTurnActive = false;
     }
 
     public void UpdateCombatLog(string message)
@@ -73,25 +69,19 @@ public class TurnManager : MonoBehaviour
 
     IEnumerator EnemyTurn()
     {
-        if (isEnemyTurnActive) yield break; // Si el turno ya está activo, salir
+        if (isEnemyTurnActive) yield break;
 
-        isEnemyTurnActive = true; // Marcar que el turno del enemigo ha comenzado
+        isEnemyTurnActive = true;
 
-        yield return new WaitForSeconds(1f); // Esperar antes de actuar
+        yield return new WaitForSeconds(1f);
 
-        // Seleccionar una habilidad aleatoria del enemigo
         Ability chosenAbility = enemy.abilities[Random.Range(0, enemy.abilities.Count)];
         enemy.Attack(player, chosenAbility);
         UpdateCombatLog("El enemigo usa " + chosenAbility.name + ".");
-        //Debug.Log("El enemigo usa " + chosenAbility.name + ".");
 
         UpdateHealthAndMana();
         CheckEndCombat();
-
-        // Cambiar turno al jugador
-        // Resetear el indicador de turno enemigo
         ChangeTurn();
-        
     }
 
     public void OnAttackButtonClicked(int abilityIndex)
@@ -137,12 +127,10 @@ public class TurnManager : MonoBehaviour
                 if (selectedAbility.name == "Guard")
                 Invoke("isGuarding", 0.6f);
 
-                // Cambiar turno al enemigo
                 ChangeTurn();
             }
             else
             {
-                //Debug.Log("No tienes suficiente maná para usar esta habilidad");
                 UpdateCombatLog("No tienes suficiente maná para usar esta habilidad");
             }
         }
@@ -163,36 +151,26 @@ public class TurnManager : MonoBehaviour
 
     IEnumerator ArseneAttack()
     {
-        // Activar Arsene
-        Vector3 fixedPosition = new Vector3(-6.27f, 0.24f, 0); // Cambia estas coordenadas según necesites
+        Vector3 fixedPosition = new Vector3(-6.27f, 0.24f, 0);
         GameObject arseneInstance = Instantiate(arsenePrefab, fixedPosition, Quaternion.identity);
 
-        //GameObject arseneInstance = Instantiate(arsenePrefab, transform.position, Quaternion.identity);
         arseneInstance.SetActive(true);
 
-        // Esperar 2 segundos mientras hace la animación
         yield return new WaitForSeconds(1.5f);
 
-        // Realizar el ataque de Arsene
-        enemy.TakeDamage(20); // Daño de Arsene
+        enemy.TakeDamage(20);
 
-        // Desactivar Arsene
         Destroy(arseneInstance);
 
         UpdateHealthAndMana();
         CheckEndCombat();
-
-        // Cambiar turno al enemigo
-        //ChangeTurn();
     }
 
     public void UpdateHealthAndMana()
     {
-        // Actualizar barra de vida
         playerHealthBar.value = player.health;
         enemyHealthBar.value = enemy.health;
 
-        // Si tienes maná, actualizar barra de maná
         playerManaBar.value = player.mana;
 
         playerHealthText.text = player.health.ToString();
@@ -202,12 +180,10 @@ public class TurnManager : MonoBehaviour
 
     void ChangeTurn()
     {
-        //Debug.Log(isEnemyTurnActive);
-        isPlayerTurn = !isPlayerTurn; // Cambiar el turno
+        isPlayerTurn = !isPlayerTurn;
 
         if (!isPlayerTurn)
         {
-            // Iniciar el turno del enemigo si es su turno
             isEnemyTurnActive = false;
             StartCoroutine(EnemyTurn());
         }
@@ -217,12 +193,10 @@ public class TurnManager : MonoBehaviour
     {
         if (enemy.health <= 0)
         {
-            // El jugador gana, vuelve a la escena principal
             sceneController.LoadScene("WinScene");
         }
         else if (player.health <= 0)
         {
-            // El jugador pierde, mostrar la pantalla de derrota
             animator.SetBool("isDead", true);
             Invoke("isDead", 0.9f);
             SceneTracker.previousScene = SceneManager.GetActiveScene().name;

@@ -10,7 +10,6 @@ public class DoorInteraction : MonoBehaviour
     [SerializeField] SceneController sceneController;
 
     private bool doorIsOpen = false;
-    //private bool playerInRange = false;
 
     void Update()
     {
@@ -41,7 +40,6 @@ public class DoorInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //playerInRange = false;
             Debug.Log("Player out of the door's range.");
         }
     }

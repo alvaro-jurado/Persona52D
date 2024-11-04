@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemyInteraction : MonoBehaviour
 {
-    public GameObject combatHUD; // Referencia al HUD del combate
+    public GameObject combatHUD;
 
     void OnMouseDown()
     {
-        // Activar el HUD de combate
+        // Activate combat HUD
         combatHUD.SetActive(true);
     }
 }
